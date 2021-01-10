@@ -1,0 +1,158 @@
+body {
+  font-family: "Ubuntu";
+  color:
+}
+
+.header {
+  position: absolute;
+  width: 11152px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  background:#FD8B67;
+}
+
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+margin-left: 30px;
+
+
+}
+
+.rectangle{
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+color: #FD8B67;
+}
+
+.rectangle 2{
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+color: #FD8B67;
+}
+
+.rectangle 3{
+margin-left: auto;
+margin-right: auto;
+border-radius: 2px;
+color: #FD8B67;
+}
+
+.orange box {
+  border: 10px solid green ;
+}
+
+.table{
+  color: #FD8B67;
+}
+
+.circle {
+width: 500px;
+height: 500px;
+line-height: 500px;
+border-radius: 50%;
+font-size: 50px;
+color: #fff;
+text-align: center;
+background: #000
+}
+.backgroundrectangle {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 8px;
+
+position: absolute;
+width: 100px;
+height: 26px;
+left: 209px;
+top: 266px;
+
+
+background: #FD8B67;
+border-radius: 5px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FD8867;
+  flex-direction: column;
+}
+
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 10px 10px;
+  gap: 25px;
+  align-items: center;
+}
+.by-line {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: #212738;
+}
+.dropdown-area {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  align-items: center;
+  gap: 15px;}
+.dropdown .dropbtn {
+  background-color: #FD8B67;
+  border: none;
+  outline: none;
+  color: #212738;
+  padding: 20px 20px;
+  margin: 0px;
+  cursor: pointer;
+  position: relative;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #FD8B67;
+  min-width: 160px;
+  z-index: 1;}
+.dropdown-content a {
+  display: block;
+  color: white;
+  padding: 12px 16px;
+  font-family: monospace;
+  text-align: center;}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #FD8B67;}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;}
+.dropdown:hover .dropbtn {background-color: #FD8B67;}
+.dashboard-btn { background: #212738;
+  border-radius: 20px;
+  padding: 5px 25px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #FD8B67; }
